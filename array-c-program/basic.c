@@ -12,7 +12,7 @@ int main()
     printf("Enter the final semister marks : ");
     scanf("%d", &final_marks);
 
-    total_marks = ft_marks / 4 + st_marks / 4 + final_marks / 2;
+    total_marks = ft_marks / 4.0 + st_marks / 4.0 + final_marks / 2.0;
 
     printf("Total Marks is : %0.2lf", total_marks);
     return 0;
